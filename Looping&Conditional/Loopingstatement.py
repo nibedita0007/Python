@@ -26,12 +26,22 @@
 
 #elif condition
                                                      
-age=int(input("Enter your age: "))
+'''age=int(input("Enter your age: "))
 if(age<18):
     print("you are too young to marry")
 elif(age>60):
     print("you are too old to marry")
 else:
-    print("We are find a perfect person")
+    print("We are find a perfect person")'''
+
+
+
+#palindrome number check
+num=int(input("Enter a number: "))
+str_num=str(num)
+if str_num == str_num[::-1]:
+    print(f"{num} is a palindrome")
+else:
+    print(f"{num} is not palindrome")
 
 
