@@ -1,13 +1,14 @@
-'''class A:
-    def __init__(self):
-        age=10
-        print(age)
+class A:
+    def __init__(self,age,name,address):
+        
+        print(age," ",name," ",address)
     
-x=A()'''
+x=A(10,"soumava","kolkata")
+
 
 
 #function
-class A:
+'''class A:
     age=10
     def fun(self):
         "good morning"
@@ -16,7 +17,7 @@ class A:
 obj=A()
 obj.fun()
 print(obj.fun.__doc__)
-print(obj.age)
+print(obj.age)'''
 
 
 

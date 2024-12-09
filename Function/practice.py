@@ -78,13 +78,61 @@ else:
 
 
 #fibonacci series
-def fibonacci_series(n):
+'''def fibonacci_series(n):
      a=0
      b=1
      for i in range(n):
           print(a,end=" ")
           a,b=b,a+b
-fibonacci_series(10)
+fibonacci_series(10)'''
+
+
+'''def armstrong_number(n):
+    a = str(n)
+    b = len(a)
+    result = sum(int(a) ** b for a in a)
+    return result == number
+
+num = int(input("Enter a number to check if it's an Armstrong number: "))
+
+if armstrong_number(num):
+    print(f"{num} is an Armstrong number!")
+else:
+    print(f"{num} is not an Armstrong number.")'''
+
+
+
+
+
+
+
+
+
+
+
+'''def armstrong_series(n):          #n=152 (int)
+    a=str(n)                       #n=str
+    b=len(a)                       #b=3
+    result=sum(int(a)**b for a in a)         #sum(int(152)**3 for 152 in '1'  '5'  '2')        
+    if(n == result):
+          print("The number is an Armstrong number.")
+    else:
+          print("The number is not an Armstrong number.")
+armstrong_series(153)'''
+
+
+0     1    1     2      3      5
+loop(range)
+a=0
+b=1
+
+
+a=b  ,a=1
+
+a=1
+b=
+
+
 
 
 

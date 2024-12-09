@@ -1,5 +1,5 @@
 #Access modifiers
-'''class A:
+class A:
     a=10    #public
     _b=20   #protected
     __c=30      #private
@@ -8,14 +8,15 @@
          self.__c=self.a+self._b           # c=a+b
          print("addition: ",self.__c)
 
-obj=A()
+obj=A()             
 obj.add()
 print(obj.a)
 print(obj._b)
-print(obj.__c)'''
+print(obj.__c)
 
 
-class A:    #parent
+
+'''class A:    #parent
     a=10
     _b=20
     __c=30
@@ -27,4 +28,4 @@ class B(A):   #child
         print(self._b)
         print(self.__c)
 obj=B()
-obj.show()
+obj.show()'''
