@@ -1,14 +1,14 @@
-# import first,second
+'''import first,second
 
-# first.add()
-# second.sub()
+first.add()
+second.sub()'''
 
-# Abstraction
+ #Abstraction
 
 from abc import ABC,abstractmethod
 class Car(ABC):
     def show(self):
-        print("Evry car has 4 wheels")
+        print("Every car has 4 wheels")
     @abstractmethod
     def Speed(self):
         pass
@@ -28,4 +28,7 @@ obj1.Speed()
 obj2=Maruti()
 obj2.show()
 obj2.Speed()
-        
+
+
+
+       
